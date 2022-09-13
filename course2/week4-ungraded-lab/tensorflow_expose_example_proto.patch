@@ -1,3 +1,12 @@
+From ba704601e80e500efd1d5886839726ad48edec61 Mon Sep 17 00:00:00 2001
+From: Tachun Lin <481717+djlin@users.noreply.github.com>
+Date: Tue, 13 Sep 2022 09:03:43 -0500
+Subject: [PATCH] update BUILD for tfx-bsl
+
+---
+ tensorflow/core/example/BUILD | 181 ++--------------------------------
+ 1 file changed, 9 insertions(+), 172 deletions(-)
+
 diff --git tensorflow/core/example/BUILD tensorflow/core/example/BUILD
 index e19a7db9..c23ddcdf 100644
 --- tensorflow/core/example/BUILD
@@ -185,3 +194,6 @@ index e19a7db9..c23ddcdf 100644
 +  ],
 +  visibility = ["//visibility:public"],
  )
+-- 
+2.37.0 (Apple Git-136)
+
